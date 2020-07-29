@@ -24,13 +24,13 @@ export class Works extends Component {
                 </section>  
 
                 <section class = "works ">
-                    <div class="container-fluid container">
+                    <div class="container-fluid container top">
                         <div class="row">
-                            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 no-padding hide">
+                            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 no-padding">
                                 <img src={imageOne} alt="" class = "one"/><br/>
                                 <img src={imageTwo} alt=""/>         
                             </div>
-                            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 no-padding hide">
+                            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 no-padding">
                                 <img src={imageThree}alt="" class = "long-img " />
                             </div>
                             <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 no-padding">
@@ -52,7 +52,7 @@ export class Works extends Component {
                 </section>
 
                 <section class = "item-img">
-                    <div class="container container-fluid hide">
+                    <div class="container container-fluid lower">
                         <div class="row">
                              <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 no-padding">
                                 <img src={imageEight} alt="" class = "one"/>         

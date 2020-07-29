@@ -193,12 +193,16 @@ nav {
     background-repeat: no-repeat;
     background-position: center center;
     position: relative;
+  
     
 }
 
 .contact-form {
     background-color: black;
     padding: 50px;
+    z-index: 10;
+    opacity: 0.8;
+    
 }
 
 
@@ -224,8 +228,33 @@ nav {
   
 }
 
-@media(max-width: 499px){
-  .hide {
-    display: none;
-  }
+@media(max-width: 575px){
+ 
+  .top .row {
+    display: flex;
+   flex-wrap: wrap;
+}
+
+.top .row .col-xs-4{
+  width: 33%;
+  min-width:0 !important;
+}
+.bottom .row {
+  display: flex;
+ flex-wrap: wrap;
+}
+
+.bottom .row .col-xs-6{
+  width: 50%;
+  min-width:0 !important;
+}
+.lower .row {
+  display: flex;
+ flex-wrap: wrap;
+}
+
+.lower .row .col-xs-3{
+  width: 50%;
+  min-width:0 !important;
+}
 }
