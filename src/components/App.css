@@ -1,0 +1,231 @@
+html,
+body {
+  position: relative;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Raleway';
+}
+
+nav {
+  background-color: #050315;
+  color: white;
+  padding: 15px !important;
+}
+
+
+.navbar li {
+  padding: 20px;
+}
+
+.hero {
+  background-image: url(images/image\ 4.png);
+  width: 100% !important;
+  height: 800px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+}
+
+.hero-text {
+  position: absolute;
+  top: 30%;
+  left: 5%;
+}
+
+.hero-text h1 {
+  color: #c280ff;
+  font-weight: bolder;
+  font-size: 60px;
+  font-family: 'Raleway';
+}
+
+.hero-text h2 {
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+  font-family: 'Raleway';
+}
+
+.hero-text button {
+  color: white;
+  font-weight: bold;
+}
+
+.hero-text button:hover {
+  color: white;
+  font-weight: bold;
+  background-color: #c280ff;
+}
+
+.intro {
+  color: white;
+  background-color: #050315;
+  font-family: 'Raleway';
+}
+
+
+.intro img {
+  width: 100%;
+}
+
+
+.padding {
+  padding: 100px 0;
+}
+
+
+.long-img {
+  height: 100%;
+}
+
+.long-img {
+  width: 110% !important;
+  /* margin-left: -90px; */
+}
+
+.services {
+  background-color: #050315;
+  margin-bottom: -15px !important;
+}
+
+.services h5 {
+  color: #c280ff !important;
+  font-size: 25px;
+}
+
+.services h2 {
+  color: white !important;
+  font-weight: 1000 !important;
+  font-size: 50px;
+  padding-bottom: 70px;
+}
+
+.one {
+  margin-bottom: 10px;
+}
+
+.works {
+  background-color: #050315;
+}
+
+.works img {
+  width: 100%;
+}
+
+.item-img {
+  background-color: #050315;
+}
+
+.item-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.items img {
+  width: 80%;
+  padding: 3px;
+}
+
+.items {
+  display: flex;
+}
+
+.no-padding {
+  margin: 0 !important;
+  padding: 0 !important;
+  padding-right: 10px !important;
+  padding-bottom: 10px !important;
+}
+
+.long-img {
+  height: 100% !important;
+}
+
+.journey {
+  background-color: #050315;
+  padding-top: 100px !important;
+  
+}
+
+.journey h5 {
+  color: #c280ff !important;
+  font-size: 25px;
+}
+
+.journey h2 {
+  color: white !important;
+  font-weight: 1000 !important;
+  font-size: 50px;
+  padding-bottom: 10px;
+}
+
+.blog img {
+  width: 100%;
+}
+
+.blog {
+  background-color: #050315;
+  color: white;
+  padding: 40px 0;
+  margin-top: -10px !important;
+  
+}
+
+.form-group input {
+    background-color: transparent;
+    border-top-style: hidden !important;
+    border-right-style: hidden !important;
+    border-left-style: hidden;
+    width: 75%;
+    margin-bottom:20px !important;
+  }
+
+.contact {
+    background-image:url(images/about.png);
+    color: white;
+    padding: 70px 0px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    
+}
+
+.contact-form {
+    background-color: black;
+    padding: 50px;
+}
+
+
+@media (max-width: 767px) {
+  .text {
+    margin-left: 60px !important;
+  }
+  
+
+  .intro img {
+    width: 100%;
+    padding-top: 100px;
+  }
+
+  
+  .blog-text {
+    margin-top: 40px;
+  }
+
+  .long-img {
+    height: 100%;
+  }
+  
+}
+
+@media(max-width: 499px){
+  .hide {
+    display: none;
+  }
+}
