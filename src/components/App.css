@@ -23,11 +23,14 @@ nav {
   background-image: url(images/image\ 4.png);
   width: 100% !important;
   height: 800px;
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
   position: relative;
+  -o-background-size:cover; 
+  -moz-background-size:cover; 
+  -webkit-background-size:cover;
 }
 
 .hero-text {
@@ -185,14 +188,17 @@ nav {
   }
 
 .contact {
-    background-image:url(images/about.png);
+    background-image:url(images/imageTwelve.png);
     color: white;
-    padding: 70px 0px;
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    position: relative;
+    background-position:center; 
+    background-attachment:scroll; 
+    -o-background-size:cover; 
+    -moz-background-size:cover; 
+    -webkit-background-size:cover; 
+    background-size:cover; 
+    background-repeat:no-repeat;
+    padding-top: 180px;
+    padding-bottom: 20px;
   
     
 }
