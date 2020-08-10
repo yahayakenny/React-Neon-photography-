@@ -6,7 +6,7 @@ export class Navbar extends Component {
         return (
           <div>           
                <nav class="navbar navbar-expand-lg navbar-dark">
-                    <a class="navbar-brand" href="#">NEON</a>
+                    <span>Neon</span>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                           <span class="navbar-toggler-icon"></span>
                        </button>
