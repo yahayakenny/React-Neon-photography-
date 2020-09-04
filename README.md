@@ -1,5 +1,5 @@
 # Project Title: 
->Neon Photography
+Neon Photography
 
 ## Project Description
 Neon Photography is a fully responsive single page React.JS portfolio website with rich colours and beautiful animations.
@@ -8,14 +8,13 @@ Neon Photography is a fully responsive single page React.JS portfolio website wi
 ## Demo
 
 
-
 ## Live Site
 The live site can be viewed here https://neon-photography.netlify.app/
 
 ## Features
 -  Mobile responsive design.
 -  Animation on scroll 
--  Rich colours and desgn. 
+-  Rich colours and pixel perfect design. 
 
 
 ## Built with
